@@ -1,0 +1,9 @@
+1、定义：最近邻检索就是根据数据的相似性，从数据库中寻找与目标数据最相似的项目，而这种相似性通常会被量化到空间上数据之间的距离，可以认为数据在空间中的距离越近，则数据之间的相似性越高。当需要查找离目标数据最近的前k个数据项时，就是k最近邻检索（K-NN)。
+2、研究方法：1、树形结构：KD Tree
+ 	     2、基于数据本身：哈希算法
+3、相关文献
+
+	1、	Hash Ranking With Weighted Asymmetric Distance for Image Search
+		创新点：WoRank（feature dataset）和WsRank（image datasets）
+		本文解决的问题：Hash码进行ANN计算的缺陷：binary code ranking
+		一般情况：asymmetric distance：平均值，但是不能代表不均匀分布的情况
